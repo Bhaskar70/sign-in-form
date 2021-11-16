@@ -1,0 +1,93 @@
+body {
+    background-color: indigo;
+}
+h1{
+    color:white;
+    margin-left: 30%;
+    padding-top: 20px;
+}
+input[type=text], select {
+    background-color:indigo;
+    border-color: indigo;
+    border-top: indigo;
+    border-left: indigo;
+    padding-top:15px;
+    outline:none;
+    color:white;
+   font-size: unset;
+   border-bottom:hidden;
+   border-top: hidden;
+   border-left:hidden;
+   border-right:hidden;
+}
+i{
+    margin-left: 30%;
+    color:white;
+    padding:25px;
+}
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+input[type=email], select {
+    background-color:indigo;
+    border-color: indigo;
+    border-top: indigo;
+    border-left: indigo;
+    padding-top:15px;
+    border-width: 30px;
+    outline:none;
+    color:white;
+   font-size: unset;
+   border-bottom:hidden;
+   border-top: hidden;
+   border-left:hidden;
+   border-right:hidden;
+}
+input[type=password], select {
+    background-color:indigo;
+    border-color: indigo;
+    border-top: indigo;
+    border-left: indigo;
+    padding-top:15px;
+    border-width: 30px;
+    outline:none;
+    color:white;
+   font-size: unset;
+   border-bottom:hidden;
+   border-top: hidden;
+   border-left:hidden;
+   border-right:hidden;
+}
+input:focus{
+    border-bottom: groove;
+    width:20%;
+}
+button{
+    background-color:#EEEEEE;
+    border: none;
+    color:#0F044C;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left:35%;
+    cursor: pointer;
+    border-radius: 8px;
+     width:25%;
+}
+botton:hover{
+    background-color: darkblue;
+}
+p{
+    color:white;
+    margin-left:40%;
+}
+span:hover{
+cursor: pointer;
+}
+a{
+    color: white;
+    border-bottom: none;
+}

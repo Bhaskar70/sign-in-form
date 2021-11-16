@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    padding:15px;
+}
+h1{
+    color:white;
+  font-size: 50px;
+  margin-bottom: unset;
+}
+p{
+    color:rgb(146, 133, 133);
+    margin-top:3px;
+}
+input{
+    text-align:center;
+    padding:15px;
+    margin:20px;
+    border-radius: 25px;
+    width:30%;
+    border-width: 3px;
+    border-color: rgb(12, 238, 61);
+    outline:none;
+    box-shadow: none !important;
+    
+}
+input::placeholder{
+    text-align: center;
+}
+button{
+    width:20%;
+    padding:15px;
+    border-color: cyan;
+    border-radius:20px;
+}
+.content{
+    text-align: center;
+}
+u:hover{
+    cursor: pointer;
+    color:rgb(20, 220, 187);
+}
+button:hover{
+    cursor: pointer;
+    background-color: cyan;
+}
